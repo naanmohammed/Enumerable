@@ -14,9 +14,7 @@ module MyEnumerable
   end
 
   def filter(&block)
-    result = []
-    each do |item|
-      result << item if yield(item)
-    end
+    select(&block)
+    # end
   end
 end

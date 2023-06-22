@@ -18,6 +18,6 @@ module MyEnumerable
     each do |item|
       result << item if yield(item)
     end
-    result
   end
 end
+

@@ -11,7 +11,7 @@ class MyList
 
   def each
     @list.each do |item|
-      yield item
+      yield item if block_given?
     end
   end
 end

@@ -13,8 +13,8 @@ module MyEnumerable
     false
   end
 
-  def filter(&block)
-    select(&block)
-    # end
+  def filter
+    result = []
+    each { |item| result << item if yield item }
   end
 end

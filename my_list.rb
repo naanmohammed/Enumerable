@@ -2,19 +2,17 @@ require_relative './my_enumerable'
 
 class MyList
   attr_accessor :list
+
   include MyEnumerable
 
   def initialize(*list)
     @list = list
   end
 
-  def each
-    @list.each do |item|
-      yield item
-    end
+  def each(&block)
+    @list.each(&block)
   end
 end
-
 
 list = MyList.new(1, 2, 3, 4)
 

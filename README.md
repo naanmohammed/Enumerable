@@ -132,6 +132,12 @@ To run tests, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Eric Antwi**
+
+- GitHub: [@Mylo16](https://github.com/Mylo16)
+- Twitter: [@Mylo16](https://twitter.com/EricAntwi384)
+- LinkedIn: [@Mylo16](https://linkedin.com/ericopokuantwi)
+  
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
